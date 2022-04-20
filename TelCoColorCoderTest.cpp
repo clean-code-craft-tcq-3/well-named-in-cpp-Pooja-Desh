@@ -1,5 +1,4 @@
 #include <iostream>
-#include "TelCoColorCoderLogic.hpp"
 #include "TelCoColorCoderTestingScript.cpp"
 
 int main() {
