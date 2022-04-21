@@ -1,4 +1,5 @@
 #include "TelCoColorCoderLogic.hpp"
+using namespace TelCoColorCoder;
 
     ColorPair GetColorFromPairNumber(int pairNumber) 
     {
