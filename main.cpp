@@ -3,11 +3,11 @@
 using namespace TelCoColorCoder;
 
 int main() {
-    testNumberToPair(4, TelCoColorCoder::WHITE, TelCoColorCoder::BROWN);
-    testNumberToPair(5, TelCoColorCoder::WHITE, TelCoColorCoder::SLATE);
+    testNumberToPair(4, WHITE, BROWN);
+    testNumberToPair(5, WHITE, SLATE);
 
-    testPairToNumber(TelCoColorCoder::BLACK, TelCoColorCoder::ORANGE, 12);
-    testPairToNumber(TelCoColorCoder::VIOLET, TelCoColorCoder::SLATE, 25);
+    testPairToNumber(BLACK, ORANGE, 12);
+    testPairToNumber(VIOLET, SLATE, 25);
 
     return 0;
 }
