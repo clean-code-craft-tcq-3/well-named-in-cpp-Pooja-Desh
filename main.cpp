@@ -1,5 +1,6 @@
 #include <iostream>
-#include "TelCoColorCoderTestingScript.cpp"
+#include "TelCoColorCoderTestingScript.hpp"
+using namespace TelCoColorCoder;
 
 int main() {
     testNumberToPair(4, TelCoColorCoder::WHITE, TelCoColorCoder::BROWN);
