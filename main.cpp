@@ -1,5 +1,5 @@
 #include <iostream>
-#include "TelCoColorCoderTestingScript.hpp"
+#include "CoderTestingScript.hpp"
 using namespace TelCoColorCoder;
 
 int main() {
