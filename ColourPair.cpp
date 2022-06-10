@@ -20,10 +20,8 @@ using namespace TelCoColorCoder;
 
     ColorPair TelCoColorCoder::GetColorFromPairNumber(int pairNumber) {
         int zeroBasedPairNumber = pairNumber - 1;
-        MajorColor majorColor = 
-            (MajorColor)(zeroBasedPairNumber / numberOfMinorColors);
-        MinorColor minorColor =
-            (MinorColor)(zeroBasedPairNumber % numberOfMinorColors);
+        MajorColor majorColor = (MajorColor)(zeroBasedPairNumber / numberOfMinorColors);
+        MinorColor minorColor = (MinorColor)(zeroBasedPairNumber % numberOfMinorColors);
         return ColorPair(majorColor, minorColor);
     }
 
@@ -40,5 +38,4 @@ using namespace TelCoColorCoder;
             std::cout<<pairNumber<<"\t"<<colorNames.ToString()<<"\n";
         }
         std::cout<<"\n---------------------------------\n");
-    }
     }
