@@ -16,6 +16,12 @@ using namespace TelCoColorCoder;
          return colorPairStr;
     }
 
+    ColorPair::ColorPair(MajorColor major, MinorColor minor)
+    {
+        m_majorColor = major;
+        m_minorColor = minor;
+    }
+
     ColorPair GetColorFromPairNumber(int pairNumber) 
     {
         int zeroBasedPairNumber = pairNumber - 1;
