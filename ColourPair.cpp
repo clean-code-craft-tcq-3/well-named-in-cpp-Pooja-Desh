@@ -31,7 +31,7 @@ using namespace TelCoColorCoder;
         
     void TelCoColorCoder::PrintColourPairManual() {
         std::cout<<"\n---------------------------------\n";
-        int NumberofPairs = TelCoColorCoder::numberOfMajorColors*TelCoColorCoder::numberOfMinorColors
+        int NumberofPairs = TelCoColorCoder::numberOfMajorColors*TelCoColorCoder::numberOfMinorColors;
         
         for(int pairNumber=1; pairNumber<=NumberofPairs; pairNumber++)
         {
