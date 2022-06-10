@@ -27,6 +27,7 @@ using namespace TelCoColorCoder;
 
     int TelCoColorCoder::GetPairNumberFromColor(MajorColor major, MinorColor minor) {
         return major * numberOfMinorColors + minor + 1;
+    }
         
     void TelCoColorCoder::PrintColourPairManual() {
         std::cout<<"\n---------------------------------\n");
