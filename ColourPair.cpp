@@ -31,7 +31,7 @@ using namespace TelCoColorCoder;
         return major * numberOfMinorColors + minor + 1;
         
     void TelCoColorCoder::PrintColourPairManual(){
-        std::cout<<"\n---------------------------------"\n);
+        std::cout<<"\n---------------------------------\n");
         int NumberofPairs = TelCoColorCoder::numberOfMajorColors*TelCoColorCoder::numberOfMinorColors
         
         for(int pairNumber=1; pairNumber<=NumberofPairs; pairNumber++)
@@ -39,6 +39,6 @@ using namespace TelCoColorCoder;
             TelCoColorCoder::ColorPair colorNames = TelCoColorCoder::GetColorFromPairNumber(pairNumber);
             std::cout<<pairNumber<<"\t"<<colorNames.ToString()<<"\n";
         }
-        std::cout<<"\n---------------------------------"\n);
+        std::cout<<"\n---------------------------------\n");
     }
     }
