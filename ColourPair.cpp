@@ -1,10 +1,10 @@
 #include "ColourPair.hpp"
 using namespace TelCoColorCoder;
 
-    const char* MajorColorNames[] = {"White", "Red", "Black", "Yellow", "Violet"};
-    const char* MinorColorNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
-    int numberOfMajorColors = sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
-    int numberOfMinorColors = sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
+    const char* TelCoColorCoder::MajorColorNames[] = {"White", "Red", "Black", "Yellow", "Violet"};
+    const char* TelCoColorCoder::MinorColorNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
+    int TelCoColorCoder::numberOfMajorColors = sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
+    int TelCoColorCoder::numberOfMinorColors = sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
 
     MajorColor ColorPair::getMajor() {return majorColor;}
     MinorColor ColorPair::getMinor() {return minorColor;}
